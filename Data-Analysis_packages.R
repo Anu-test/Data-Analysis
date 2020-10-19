@@ -1,6 +1,6 @@
 # LOAD PACKAGES ############################################
 
-# I recommend "pacman" for managing add-on packages. It will
+#Recommend "pacman" for managing add-on packages. It will
 # install packages, if needed, and then load the packages.
 install.packages("pacman")
 
@@ -10,7 +10,7 @@ library(pacman)  # No message.
 
 # Or, by using "pacman::p_load" you can use the p_load
 # function from pacman without actually loading pacman.
-# These are packages I load every time.
+
 pacman::p_load(pacman, dplyr, GGally, ggplot2, ggthemes, 
                ggvis, httr, lubridate, plotly, rio, rmarkdown, shiny, 
                stringr, tidyr) 
